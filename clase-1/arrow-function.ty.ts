@@ -1,6 +1,6 @@
 // Callback donde le pasamos como parametro una función
 
-const sayHiFromFunction (fn: (name: string) => void) => {
+const sayHiFromFunction = ( fn: (name: string) => void) => {
     return fn('Miguel')
 }
 

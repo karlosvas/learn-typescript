@@ -1,5 +1,3 @@
-// Typado de datos TTypescript no se ejecuta en tiempo de ejecución
-
 // 1 Forma declarando tipos en el parametro
 function saludar({ name, age }: {name: string, age :number}){
      console.log(`Hola ${name}, tienes ${age} años`)
